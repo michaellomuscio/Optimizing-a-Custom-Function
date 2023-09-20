@@ -15,7 +15,7 @@ The genetic algorithm optimizes the function using:
 - **Crossover**: Combines two solutions to produce a new solution.
 - **Mutation**: There's a small chance of a random change in a solution to introduce variability.
 
-### Entering Functions:
+## Entering Functions:
 
 When using the "Optimizing a Custom Function" example, you'll be prompted to enter a custom function. The function should be written in JavaScript syntax, and you can use any valid JavaScript mathematical operations and functions. Here's how to correctly input your function:
 
