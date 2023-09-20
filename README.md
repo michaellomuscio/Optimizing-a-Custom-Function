@@ -4,6 +4,9 @@
 ## Overview
 [This example](https://michaellomuscio.github.io/Optimizing-a-Custom-Function/) uses a genetic algorithm to optimize a custom function within a specified range.
 
+## Resources to learn more
+[Here](https://docs.google.com/document/d/1_lzpuUzTSAosdZqfeqtqmqSjo8RCp2LCSfn47HPbAG8/edit?usp=sharing) is a brief introduction to genetic algorithms.
+
 ## How to Use
 - Open `index.html` in a web browser.
 - Input your custom function and range.
