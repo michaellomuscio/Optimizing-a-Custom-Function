@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GA Custom Function Optimization</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Genetic Algorithm Custom Function Optimization</h1>
+    <p>
+        Function: f(x) = 
+        <input type="text" id="functionInput" value="x * Math.sin(10 * Math.PI * x) + 2.0">
+    </p>
+    <p>
+        Range: 
+        <input type="text" id="rangeMin" value="-1" size="5"> to 
+        <input type="text" id="rangeMax" value="2" size="5">
+    </p>
+    <p><button onclick="startOptimization()">Start Optimization</button></p>
+    <p>Best Value: <span id="bestValue"></span></p>
+    <p>Function Output: <span id="functionOutput"></span></p>
+    <p>Generation: <span id="generation">0</span></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
